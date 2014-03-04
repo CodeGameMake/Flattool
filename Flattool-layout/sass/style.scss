@@ -1,0 +1,32 @@
+/*
+*
+* --- file style.scss
+* import all file project
+*
+*
+*/
+
+/*framework Bourbon
+-----------------------------------------------------*/
+
+@import 'bourbon/bourbon';
+
+/* mixin project
+-----------------------------------------------------*/
+
+@import 'mixin';
+
+/* setting project
+-----------------------------------------------------*/
+
+@import 'settings';
+
+/* Markup project
+-----------------------------------------------------*/
+
+@import 'grid';
+
+/* style page
+-----------------------------------------------------*/
+
+@import 'main';

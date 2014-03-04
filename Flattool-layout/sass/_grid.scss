@@ -1,0 +1,36 @@
+/*
+*
+* --- file _grid.scss
+*    markup page
+*
+*
+*/
+
+//markup block
+header {
+	@include size($page_width 105px);
+}
+.superb{
+	@include size($page_width 410px);
+}
+.buy{
+	@include size($page_width 110px);
+}
+.check{
+	@include size($page_width 350px);
+}
+.look{
+	@include size($page_width 300px);
+}
+.premium{
+	@include size($page_width 540px);
+}
+.learn{
+	@include size($page_width 380px);
+}
+.subscribe{
+	@include size($page_width 120px);
+}
+footer{
+	@include size($page_width 90px);
+}
