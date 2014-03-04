@@ -5,3 +5,12 @@
 *
 *
 */
+@mixin relative() {
+	position:relative;
+}
+@mixin green() {
+	background-color: #1dbb90;
+}
+@mixin pink() {
+	background-color: #d34272;
+}

@@ -1,7 +1,32 @@
 /*
 *
-* --- file _grid.scss
-*    styling page
+* --- file _main.scss
+*    styling main page
 *
 *
 */
+
+//header
+header {
+	@include relative();
+	img {
+		position: absolute;
+		left: 115px;
+		top: 40px;
+	}
+}
+//superb
+.superb {
+	@include relative();
+	@include green();
+}
+//buy
+.buy {
+	@include relative();
+	@include pink();
+}
+//subscribe
+.subscribe {
+	@include relative();
+	@include pink();
+}
