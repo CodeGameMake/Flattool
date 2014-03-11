@@ -8,25 +8,80 @@
 
 //header
 header {
-	@include relative();
-	img {
+	position: relative;
+	#logo {
 		position: absolute;
 		left: 115px;
+		top: 40px;
+	}
+	.flickr {
+		left: 625px;
+		background-color: $color_site_pink;
+		img {
+			margin-top: 5px;
+			margin-left: 7px;
+		}
+	}
+	.stumble {
+		left: 660px;
+		background-color: $color_site_green;
+		img {
+			margin-top: 5px;
+		}
+	}
+	.facebook {
+		left: 695px;
+		background-color: $color_site_pink;
+	}
+	.twitter {
+		left: 730px;
+		background-color: $color_site_green;
+		img {
+			margin-top: 3px;
+			margin-left: 8px;
+		}
+	}
+	.call {
+		position: absolute;
+		left: 785px;
+		font-size: 18px;
+		font-family: $pt_sans;
+		top: 43px;
+		text-transform: uppercase;
+	}
+	#phone {
+		position: absolute;
+		left: 870px;
+		top: 35px;
+	}
+	.p_number{
+		position: absolute;
+		top: 38px;
+		left: 910px;
+		text-transform: uppercase;
+		font-size: 23px;
+		font-family: $pt_sans;
+		color: $color_site_pink; 
+	}
+	div {
+		position: absolute;
+		@include size(30px 30px);
+		background-color: $color_site_green;
 		top: 40px;
 	}
 }
 //superb
 .superb {
-	@include relative();
-	@include green();
+	position: relative;
+	background-color: $color_site_green;
 }
 //buy
 .buy {
-	@include relative();
-	@include pink();
+	position: relative;
+	background-color: $color_site_pink;
 }
 //subscribe
 .subscribe {
-	@include relative();
-	@include pink();
+	position: relative;
+	background-color: $color_site_pink;
 }

@@ -1,3 +1,4 @@
+/*
 *
 * --- file style.scss
 * import all file project
@@ -35,7 +36,11 @@
 */
 header {
   width: 100%;
-  height: 105px; }
+  height: 110px; }
+
+header div {
+  width: 50px;
+  height: 50px; }
 
 .superb {
   width: 100%;
@@ -80,9 +85,54 @@ footer {
 */
 header {
   position: relative; }
-  header img {
+  header #logo {
     position: absolute;
     left: 115px;
+    top: 40px; }
+  header .flickr {
+    left: 625px;
+    background-color: #d34272; }
+    header .flickr img {
+      margin-top: 5px;
+      margin-left: 7px; }
+  header .stumble {
+    left: 660px;
+    background-color: #1dbb90; }
+    header .stumble img {
+      margin-top: 5px; }
+  header .facebook {
+    left: 695px;
+    background-color: #d34272; }
+  header .twitter {
+    left: 730px;
+    background-color: #1dbb90; }
+    header .twitter img {
+      margin-top: 3px;
+      margin-left: 8px; }
+  header .call {
+    position: absolute;
+    left: 785px;
+    font-size: 18px;
+    font-family: PT Sans;
+    top: 43px;
+    text-transform: uppercase; }
+  header #phone {
+    position: absolute;
+    left: 870px;
+    top: 35px; }
+  header .p_number {
+    position: absolute;
+    top: 38px;
+    left: 910px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: PT Sans;
+    color: #d34272; }
+  header div {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #1dbb90;
     top: 40px; }
 
 .superb {

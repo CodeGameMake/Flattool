@@ -8,7 +8,12 @@
 
 //markup block
 header {
-	@include size($page_width 105px);
+	@include size($page_width 110px);
+}
+header{
+	div{
+		@include size(50px 50px);
+	}
 }
 .superb{
 	@include size($page_width 410px);
