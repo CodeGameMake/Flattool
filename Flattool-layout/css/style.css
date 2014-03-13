@@ -138,6 +138,22 @@ header {
 .superb {
   position: relative;
   background-color: #1dbb90; }
+  .superb .content {
+    position: absolute;
+    left: 680px;
+    top: 90px;
+    width: 390px;
+    height: 280px; }
+    .superb .content p {
+      font-family: PT Sans;
+      font-size: 15px;
+      color: #474747; }
+    .superb .content h3 {
+      margin-top: 0px;
+      font-size: 43px;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+      font-weight: 300; }
 
 .buy {
   position: relative;
