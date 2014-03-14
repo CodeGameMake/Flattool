@@ -6,7 +6,8 @@
 *
 */
 
-//header
+//Settings for blocks
+//Header
 header {
 	position: relative;
 	#logo {
@@ -82,14 +83,14 @@ header {
 		p {
 			font-family: $pt_sans;
 			font-size: 15px;
-			color: $color_site_text;
+			color: $color_site_grey;
 		}
 		h3 {
 			margin-top: 0px;
 			font-size: 43px;
 			font-family: 'Raleway', sans-serif;
 			color: #fff;
-			font-weight: 300;
+			font-weight: $raleway_font_weight;
 		}
 	}
 }
@@ -97,6 +98,40 @@ header {
 .buy {
 	position: relative;
 	background-color: $color_site_pink;
+	img {
+		margin-top: -350px;
+		margin-left: 120px;
+	}
+	.button_buy {
+		position: absolute;
+		top: 35px;
+		left: 675px;
+		@include size(220px 40px);
+		background-color: $color_site_green;
+		span {
+			left: 46px;
+		}
+	}
+	div {
+		position: relative;
+		span {
+			font-family: $pt_sans;
+			font-size: 18px;
+			position: absolute;
+			top: 8px;
+			color: #fff;
+		}
+	}
+	.demo {
+		position: absolute;
+		@include size(140px 40px);
+		left: 920px;
+		top: 35px;
+		background-color: $color_site_grey;
+		span {
+			left: 35px;
+		}
+	}
 }
 //subscribe
 .subscribe {
