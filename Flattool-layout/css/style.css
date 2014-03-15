@@ -226,6 +226,24 @@ header {
       .check .content .settings h3 {
         margin-right: 50px; }
 
+.look h3 {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 410px; }
+.look .content {
+  width: 1020px;
+  height: 180px;
+  margin: 0 auto; }
+  .look .content img {
+    margin-right: 35px; }
+  .look .content .front {
+    float: left; }
+  .look .content .reverse {
+    float: right; }
+
 .subscribe {
   position: relative;
   background-color: #d34272; }
