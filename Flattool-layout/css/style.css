@@ -188,6 +188,44 @@ header {
     .buy .demo span {
       left: 35px; }
 
+.check {
+  position: relative; }
+  .check .content {
+    width: 975px;
+    height: 300px;
+    margin: 0 auto; }
+    .check .content .features {
+      margin-top: 50px;
+      text-transform: uppercase;
+      margin-left: 285px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 32px;
+      margin-bottom: 50px; }
+    .check .content div {
+      float: left;
+      width: 265px;
+      height: 205px;
+      margin-right: 60px; }
+      .check .content div h3 {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        float: right;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px; }
+      .check .content div p {
+        font-family: PT Sans;
+        font-size: 15px; }
+    .check .content .calendar h3 {
+      margin-right: 40px; }
+    .check .content .search h3 {
+      margin-right: 70px; }
+    .check .content .settings {
+      float: right; }
+      .check .content .settings h3 {
+        margin-right: 50px; }
+
 .subscribe {
   position: relative;
   background-color: #d34272; }

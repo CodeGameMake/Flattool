@@ -133,6 +133,56 @@ header {
 		}
 	}
 }
+//check
+.check {
+	position: relative;
+	.content {
+		@include size(975px 300px);
+		margin: 0 auto;
+		.features {
+			margin-top: 50px;
+			text-transform: uppercase;
+			margin-left: 285px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 32px;
+			margin-bottom: 50px;
+		}
+		div {
+			float: left;
+			@include size(265px 205px);
+			margin-right: 60px;
+			h3 {
+				margin-left: 0px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				float: right;
+				text-transform: uppercase;
+				font-family: 'Raleway', sans-serif;
+				font-size: 25px;
+			}
+			p {
+				font-family: $pt_sans;
+				font-size: 15px;
+			}
+		}
+		.calendar {
+			h3 {
+				margin-right: 40px;
+			}
+		}
+		.search {
+			h3 {
+				margin-right: 70px;
+			}
+		}
+		.settings {
+			float: right;
+			h3 {
+				margin-right: 50px;
+			}
+		}
+	}
+}
 //subscribe
 .subscribe {
 	position: relative;
