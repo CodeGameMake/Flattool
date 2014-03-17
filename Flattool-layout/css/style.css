@@ -37,7 +37,7 @@
 */
 header {
   width: 100%;
-  height: 110px; }
+  height: 106px; }
 
 header div {
   width: 50px;
@@ -91,35 +91,35 @@ header {
     left: 115px;
     top: 40px; }
   header .flickr {
-    left: 625px;
+    left: 623px;
     background-color: #d34272; }
     header .flickr img {
       margin-top: 5px;
       margin-left: 7px; }
   header .stumble {
-    left: 660px;
+    left: 658px;
     background-color: #1dbb90; }
     header .stumble img {
       margin-top: 5px; }
   header .facebook {
-    left: 695px;
+    left: 693px;
     background-color: #d34272; }
     header .facebook i {
       color: #fff;
       margin-left: 10px;
       margin-top: 9px; }
   header .twitter {
-    left: 730px;
+    left: 728px;
     background-color: #1dbb90; }
     header .twitter img {
       margin-top: 3px;
       margin-left: 8px; }
   header .call {
     position: absolute;
-    left: 785px;
+    left: 779px;
     font-size: 18px;
     font-family: PT Sans;
-    top: 43px;
+    top: 40px;
     text-transform: uppercase; }
   header #phone {
     position: absolute;
@@ -127,8 +127,8 @@ header {
     top: 35px; }
   header .p_number {
     position: absolute;
-    top: 38px;
-    left: 910px;
+    top: 37px;
+    left: 907px;
     text-transform: uppercase;
     font-size: 23px;
     font-family: PT Sans;
@@ -138,34 +138,36 @@ header {
     width: 30px;
     height: 30px;
     background-color: #1dbb90;
-    top: 40px; }
+    top: 36px; }
 
 .superb {
   position: relative;
   background-color: #1dbb90; }
   .superb .content {
     position: absolute;
-    left: 680px;
-    top: 90px;
+    left: 675px;
+    top: 78px;
     width: 390px;
     height: 280px; }
     .superb .content p {
       font-family: PT Sans;
       font-size: 15px;
-      color: #474747; }
+      color: #474747;
+      line-height: 1.75; }
     .superb .content h3 {
       margin-top: 0px;
       font-size: 43px;
       font-family: 'Raleway', sans-serif;
       color: #fff;
-      font-weight: 300; }
+      font-weight: 300;
+      margin-bottom: 23px; }
 
 .buy {
   position: relative;
   background-color: #d34272; }
   .buy img {
     margin-top: -350px;
-    margin-left: 120px; }
+    margin-left: 115px; }
   .buy .button_buy {
     position: absolute;
     top: 35px;
@@ -174,7 +176,7 @@ header {
     height: 40px;
     background-color: #1dbb90; }
     .buy .button_buy span {
-      left: 46px; }
+      left: 43px; }
   .buy div {
     position: relative; }
     .buy div span {
@@ -187,7 +189,7 @@ header {
     position: absolute;
     width: 140px;
     height: 40px;
-    left: 920px;
+    left: 915px;
     top: 35px;
     background-color: #474747; }
     .buy .demo span {
@@ -195,41 +197,50 @@ header {
 
 .check {
   position: relative; }
+  .check .features {
+    margin-top: 40px;
+    text-transform: uppercase;
+    margin-left: 409px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    margin-bottom: 44px;
+    font-weight: 300; }
   .check .content {
-    width: 975px;
-    height: 300px;
-    margin: 0 auto; }
-    .check .content .features {
-      margin-top: 50px;
-      text-transform: uppercase;
-      margin-left: 285px;
-      font-family: 'Raleway', sans-serif;
-      font-size: 32px;
-      margin-bottom: 50px; }
+    width: 952px;
+    height: 350px;
+    margin-left: 126px; }
     .check .content div {
       float: left;
       width: 265px;
       height: 205px;
-      margin-right: 60px; }
+      margin-right: 52px; }
       .check .content div h3 {
+        font-weight: 300;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 8px;
         margin-bottom: 0px;
         float: right;
         text-transform: uppercase;
         font-family: 'Raleway', sans-serif;
-        font-size: 25px; }
+        font-size: 25px;
+        line-height: 1.1; }
       .check .content div p {
+        margin-top: 21px;
         font-family: PT Sans;
-        font-size: 15px; }
-    .check .content .calendar h3 {
-      margin-right: 40px; }
-    .check .content .search h3 {
-      margin-right: 70px; }
-    .check .content .settings {
-      float: right; }
-      .check .content .settings h3 {
+        font-size: 15px;
+        line-height: 1.6; }
+    .check .content .calendar {
+      margin-top: 3px;
+      margin-left: 12px; }
+      .check .content .calendar h3 {
+        margin-top: 1px;
         margin-right: 50px; }
+    .check .content .search h3 {
+      margin-right: 83px; }
+    .check .content .settings {
+      margin-right: 0px; }
+      .check .content .settings h3 {
+        margin-right: 58px; }
 
 .look h3 {
   text-transform: uppercase;

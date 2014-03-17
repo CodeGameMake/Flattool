@@ -16,7 +16,7 @@ header {
 		top: 40px;
 	}
 	.flickr {
-		left: 625px;
+		left: 623px;
 		background-color: $color_site_pink;
 		img {
 			margin-top: 5px;
@@ -24,23 +24,23 @@ header {
 		}
 	}
 	.stumble {
-		left: 660px;
+		left: 658px;
 		background-color: $color_site_green;
 		img {
 			margin-top: 5px;
 		}
 	}
 	.facebook {
-		left: 695px;
+		left: 693px;
 		background-color: $color_site_pink;
-		i{
+		i {
 			color: #fff;
 			margin-left: 10px;
 			margin-top: 9px;
 		}
 	}
 	.twitter {
-		left: 730px;
+		left: 728px;
 		background-color: $color_site_green;
 		img {
 			margin-top: 3px;
@@ -49,10 +49,10 @@ header {
 	}
 	.call {
 		position: absolute;
-		left: 785px;
+		left: 779px;
 		font-size: 18px;
 		font-family: $pt_sans;
-		top: 43px;
+		top: 40px;
 		text-transform: uppercase;
 	}
 	#phone {
@@ -62,8 +62,8 @@ header {
 	}
 	.p_number {
 		position: absolute;
-		top: 38px;
-		left: 910px;
+		top: 37px;
+		left: 907px;
 		text-transform: uppercase;
 		font-size: 23px;
 		font-family: $pt_sans;
@@ -73,7 +73,7 @@ header {
 		position: absolute;
 		@include size(30px 30px);
 		background-color: $color_site_green;
-		top: 40px;
+		top: 36px;
 	}
 }
 //superb
@@ -82,13 +82,14 @@ header {
 	background-color: $color_site_green;
 	.content {
 		position: absolute;
-		left: 680px;
-		top: 90px;
+		left: 675px;
+		top: 78px;
 		@include size(390px 280px);
 		p {
 			font-family: $pt_sans;
 			font-size: 15px;
 			color: $color_site_grey;
+			line-height: 1.75;
 		}
 		h3 {
 			margin-top: 0px;
@@ -96,6 +97,7 @@ header {
 			font-family: 'Raleway', sans-serif;
 			color: #fff;
 			font-weight: $raleway_font_weight;
+			margin-bottom: 23px;
 		}
 	}
 }
@@ -105,7 +107,7 @@ header {
 	background-color: $color_site_pink;
 	img {
 		margin-top: -350px;
-		margin-left: 120px;
+		margin-left: 115px;
 	}
 	.button_buy {
 		position: absolute;
@@ -114,7 +116,7 @@ header {
 		@include size(220px 40px);
 		background-color: $color_site_green;
 		span {
-			left: 46px;
+			left: 43px;
 		}
 	}
 	div {
@@ -130,7 +132,7 @@ header {
 	.demo {
 		position: absolute;
 		@include size(140px 40px);
-		left: 920px;
+		left: 915px;
 		top: 35px;
 		background-color: $color_site_grey;
 		span {
@@ -141,49 +143,57 @@ header {
 //check
 .check {
 	position: relative;
+	.features {
+		margin-top: 40px;
+		text-transform: uppercase;
+		margin-left: 409px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 32px;
+		margin-bottom: 44px;
+		font-weight: $raleway_font_weight;
+	}
 	.content {
-		@include size(975px 300px);
-		margin: 0 auto;
-		.features {
-			margin-top: 50px;
-			text-transform: uppercase;
-			margin-left: 285px;
-			font-family: 'Raleway', sans-serif;
-			font-size: 32px;
-			margin-bottom: 50px;
-		}
+		@include size(952px 350px);
+		margin-left: 126px;
 		div {
 			float: left;
 			@include size(265px 205px);
-			margin-right: 60px;
+			margin-right: 52px;
 			h3 {
+				font-weight: $raleway_font_weight;
 				margin-left: 0px;
-				margin-top: 0px;
+				margin-top: 8px;
 				margin-bottom: 0px;
 				float: right;
 				text-transform: uppercase;
 				font-family: 'Raleway', sans-serif;
 				font-size: 25px;
+				line-height: 1.1;
 			}
 			p {
+				margin-top: 21px;
 				font-family: $pt_sans;
 				font-size: 15px;
+				line-height: 1.6;
 			}
 		}
 		.calendar {
+			margin-top: 3px;
+			margin-left: 12px;
 			h3 {
-				margin-right: 40px;
+				margin-top: 1px;
+				margin-right: 50px;
 			}
 		}
 		.search {
 			h3 {
-				margin-right: 70px;
+				margin-right: 83px;
 			}
 		}
 		.settings {
-			float: right;
+			margin-right: 0px;
 			h3 {
-				margin-right: 50px;
+				margin-right: 58px;
 			}
 		}
 	}
