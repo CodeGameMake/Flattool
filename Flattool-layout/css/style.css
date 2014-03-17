@@ -326,6 +326,42 @@ header {
     text-align: center;
     margin-bottom: 45px; }
 
+.learn {
+  position: relative; }
+  .learn .content {
+    width: 985px;
+    height: 380px;
+    margin: 0 auto; }
+    .learn .content .customers {
+      width: 405px;
+      height: 285px;
+      margin-right: 80px;
+      float: left; }
+      .learn .content .customers .comment {
+        width: 400px;
+        height: 70px;
+        margin-bottom: 20px; }
+        .learn .content .customers .comment img {
+          float: left;
+          margin-top: 5px; }
+        .learn .content .customers .comment p {
+          font-family: PT Sans;
+          font-size: 15px;
+          width: 360px;
+          margin-top: 0px;
+          margin-bottom: 8px;
+          padding-left: 70px; }
+    .learn .content .youtube {
+      width: 420px;
+      height: 315px;
+      margin-right: 80px;
+      float: right; }
+    .learn .content h3 {
+      text-transform: uppercase;
+      font-family: 'Raleway', sans-serif;
+      font-size: 32px;
+      margin-bottom: 25px; }
+
 .subscribe {
   position: relative;
   background-color: #d34272; }

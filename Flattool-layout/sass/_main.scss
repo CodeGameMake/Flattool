@@ -306,6 +306,46 @@ header {
 		margin-bottom: 45px;
 	}
 }
+//learn
+.learn {
+	position: relative;
+	.content {
+		@include size(985px 380px);
+		margin: 0 auto;
+		.customers {
+			@include size(405px 285px);
+			margin-right: 80px;
+			float: left;
+			.comment {
+				@include size(400px 70px);
+				margin-bottom: 20px;
+				img {
+					float: left;
+					margin-top: 5px;
+				}
+				p {
+					font-family: $pt_sans;
+					font-size: 15px;
+					width: 360px;
+					margin-top: 0px;
+					margin-bottom: 8px;
+					padding-left: 70px;
+				}
+			}
+		}
+		.youtube {
+			@include size(420px 315px);
+			margin-right: 80px;
+			float: right;
+		}
+		h3 {
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif;
+			font-size: 32px;
+			margin-bottom: 25px;
+		}
+	}
+}
 //subscribe
 .subscribe {
 	position: relative;
