@@ -153,7 +153,7 @@ header {
 		font-weight: $raleway_font_weight;
 	}
 	.content {
-		@include size(952px 350px);
+		@include size(952px 250px);
 		margin-left: 126px;
 		div {
 			float: left;
@@ -201,24 +201,21 @@ header {
 //look
 .look {
 	h3 {
+		letter-spacing: 0px;
 		text-transform: uppercase;
 		font-family: 'Raleway', sans-serif;
 		font-size: 32px;
 		margin-top: 0px;
-		margin-bottom: 50px;
-		margin-left: 410px;
+		margin-bottom: 42px;
+		margin-left: 377px;
+		font-weight: $raleway_font_weight;
 	}
 	.content {
-		@include size(1020px 180px);
-		margin: 0 auto;
+		@include size(1000px 200px);
+		margin-left: 115px;
 		img {
-			margin-right: 35px;
-		}
-		.front {
 			float: left;
-		}
-		.reverse {
-			float: right;
+			margin-right: 20px;
 		}
 	}
 }
