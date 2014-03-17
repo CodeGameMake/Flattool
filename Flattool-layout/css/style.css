@@ -1,3 +1,4 @@
+@charset "IBM866";
 /*
 *
 * --- file style.scss
@@ -243,6 +244,87 @@ header {
     float: left; }
   .look .content .reverse {
     float: right; }
+
+.premium {
+  position: relative; }
+  .premium .content {
+    width: 960px;
+    height: 390px;
+    margin: 0 auto; }
+    .premium .content .button {
+      width: 135px;
+      height: 35px;
+      background-color: #1dbb90;
+      margin-left: 120px; }
+      .premium .content .button a {
+        text-decoration: none; }
+        .premium .content .button a p {
+          font-family: PT Sans;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 15px;
+          text-align: center;
+          padding-top: 6px; }
+    .premium .content .list p {
+      font-family: PT Sans;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 20px;
+      text-align: center; }
+    .premium .content .list ul {
+      line-height: 2.5;
+      color: #fff; }
+      .premium .content .list ul li {
+        list-style-type: none; }
+      .premium .content .list ul li:before {
+        content: "► "; }
+    .premium .content div .top_message {
+      width: 205px;
+      height: 45px;
+      margin: 0 auto; }
+      .premium .content div .top_message p {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: PT Sans;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        padding-top: 10px; }
+    .premium .content .regular {
+      float: left;
+      width: 300px;
+      height: 385px;
+      margin-right: 20px;
+      background-color: #474747; }
+      .premium .content .regular .top_message {
+        background-color: #1dbb90; }
+    .premium .content .elite {
+      float: left;
+      width: 300px;
+      height: 385px;
+      margin-right: 20px;
+      background-color: #d34272; }
+      .premium .content .elite .top_message {
+        background-color: #474747; }
+      .premium .content .elite .button {
+        background-color: #474747; }
+    .premium .content .pro {
+      margin-right: 20px;
+      width: 300px;
+      height: 385px;
+      float: right;
+      background-color: #1dbb90; }
+      .premium .content .pro .top_message {
+        background-color: #d34272; }
+      .premium .content .pro .button {
+        background-color: #d34272; }
+  .premium h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 45px; }
 
 .subscribe {
   position: relative;
