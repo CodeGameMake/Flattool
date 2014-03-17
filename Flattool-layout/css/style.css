@@ -365,3 +365,36 @@ header {
 .subscribe {
   position: relative;
   background-color: #d34272; }
+  .subscribe .content {
+    width: 230px;
+    height: 45px;
+    position: absolute;
+    left: 115px;
+    top: 35px; }
+    .subscribe .content p {
+      text-transform: uppercase;
+      line-height: 1;
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 21px;
+      margin-bottom: 0px;
+      margin-top: 0px; }
+      .subscribe .content p font {
+        font-size: 32px;
+        font-weight: bold; }
+  .subscribe form {
+    position: absolute;
+    left: 625px;
+    top: 35px; }
+    .subscribe form input[type='email'] {
+      width: 365px;
+      height: 35px;
+      border: 0px; }
+    .subscribe form input[type='submit'] {
+      background-color: #fff;
+      border: 0px;
+      width: 55px;
+      height: 55px;
+      margin-left: -4px;
+      padding-left: 0px;
+      padding-right: 0px; }
