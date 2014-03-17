@@ -104,6 +104,10 @@ header {
   header .facebook {
     left: 695px;
     background-color: #d34272; }
+    header .facebook i {
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 9px; }
   header .twitter {
     left: 730px;
     background-color: #1dbb90; }
@@ -398,3 +402,24 @@ header {
       margin-left: -4px;
       padding-left: 0px;
       padding-right: 0px; }
+
+footer {
+  position: relative; }
+  footer .content .privacy {
+    width: 250px;
+    height: 20px;
+    font-family: PT Sans;
+    font-size: 15px;
+    margin-left: 815px;
+    margin-top: -25px; }
+    footer .content .privacy a {
+      text-decoration: none;
+      color: black;
+      margin-right: 10px; }
+  footer .content p {
+    font-family: PT Sans;
+    font-size: 15px;
+    margin-left: 120px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px; }
