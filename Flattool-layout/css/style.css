@@ -61,11 +61,11 @@ header div {
 
 .premium {
   width: 100%;
-  height: 540px; }
+  height: 512px; }
 
 .learn {
   width: 100%;
-  height: 380px; }
+  height: 405px; }
 
 .subscribe {
   width: 100%;
@@ -351,18 +351,18 @@ header {
 .learn {
   position: relative; }
   .learn .content {
-    width: 985px;
+    width: 960px;
     height: 380px;
-    margin: 0 auto; }
+    margin-left: 115px; }
     .learn .content .customers {
-      width: 405px;
+      width: 410px;
       height: 285px;
-      margin-right: 80px;
+      margin-right: 60px;
       float: left; }
       .learn .content .customers .comment {
         width: 400px;
         height: 70px;
-        margin-bottom: 20px; }
+        margin-bottom: 10px; }
         .learn .content .customers .comment img {
           float: left;
           margin-top: 5px; }
@@ -374,15 +374,21 @@ header {
           margin-bottom: 8px;
           padding-left: 70px; }
     .learn .content .youtube {
-      width: 420px;
+      width: 490px;
       height: 315px;
-      margin-right: 80px;
       float: right; }
+      .learn .content .youtube h3 {
+        margin-left: 5px;
+        margin-bottom: 26px; }
+      .learn .content .youtube embed {
+        margin-left: 10px; }
     .learn .content h3 {
+      margin-top: 30px;
+      font-weight: 300;
       text-transform: uppercase;
       font-family: 'Raleway', sans-serif;
       font-size: 32px;
-      margin-bottom: 25px; }
+      margin-bottom: 21px; }
 
 .subscribe {
   position: relative;
@@ -392,7 +398,7 @@ header {
     height: 45px;
     position: absolute;
     left: 115px;
-    top: 35px; }
+    top: 32px; }
     .subscribe .content p {
       text-transform: uppercase;
       line-height: 1;
@@ -406,8 +412,8 @@ header {
         font-weight: bold; }
   .subscribe form {
     position: absolute;
-    left: 625px;
-    top: 35px; }
+    left: 629px;
+    top: 32px; }
     .subscribe form input[type='email'] {
       width: 365px;
       height: 35px;
@@ -415,7 +421,7 @@ header {
     .subscribe form input[type='submit'] {
       background-color: #fff;
       border: 0px;
-      width: 55px;
+      width: 60px;
       height: 55px;
       margin-left: -4px;
       padding-left: 0px;
@@ -428,16 +434,18 @@ footer {
     height: 20px;
     font-family: PT Sans;
     font-size: 15px;
-    margin-left: 815px;
-    margin-top: -25px; }
+    margin-left: 821px;
+    margin-top: -19px; }
     footer .content .privacy a {
       text-decoration: none;
       color: black;
       margin-right: 10px; }
+      footer .content .privacy a span::before {
+        content: "&"; }
   footer .content p {
     font-family: PT Sans;
     font-size: 15px;
-    margin-left: 120px;
-    padding-top: 40px;
+    margin-left: 112px;
+    padding-top: 33px;
     margin-bottom: 0px;
     margin-top: 0px; }

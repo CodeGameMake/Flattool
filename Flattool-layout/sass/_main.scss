@@ -337,15 +337,15 @@ header {
 .learn {
 	position: relative;
 	.content {
-		@include size(985px 380px);
-		margin: 0 auto;
+		@include size(960px 380px);
+		margin-left: 115px;
 		.customers {
-			@include size(405px 285px);
-			margin-right: 80px;
+			@include size(410px 285px);
+			margin-right: 60px;
 			float: left;
 			.comment {
 				@include size(400px 70px);
-				margin-bottom: 20px;
+				margin-bottom: 10px;
 				img {
 					float: left;
 					margin-top: 5px;
@@ -361,15 +361,23 @@ header {
 			}
 		}
 		.youtube {
-			@include size(420px 315px);
-			margin-right: 80px;
+			@include size(490px 315px);
 			float: right;
+			h3 {
+				margin-left: 5px;
+				margin-bottom: 26px;
+			}
+			embed {
+				margin-left: 10px;
+			}
 		}
 		h3 {
+			margin-top: 30px;
+			font-weight: $raleway_font_weight;
 			text-transform: uppercase;
 			font-family: 'Raleway', sans-serif;
 			font-size: 32px;
-			margin-bottom: 25px;
+			margin-bottom: 21px;
 		}
 	}
 }
@@ -381,7 +389,7 @@ header {
 		@include size(230px 45px);
 		position: absolute;
 		left: 115px;
-		top: 35px;
+		top: 32px;
 		p {
 			text-transform: uppercase;
 			line-height: 1;
@@ -398,8 +406,8 @@ header {
 	}
 	form {
 		position: absolute;
-		left: 625px;
-		top: 35px;
+		left: 629px;
+		top: 32px;
 		input[type='email'] {
 			@include size(365px 35px);
 			border: 0px;
@@ -407,7 +415,7 @@ header {
 		input[type='submit'] {
 			background-color: #fff;
 			border: 0px;
-			@include size(55px 55px);
+			@include size(60px 55px);
 			margin-left: -4px;
 			padding-left: 0px;
 			padding-right: 0px;
@@ -422,19 +430,22 @@ footer {
 			@include size(250px 20px);
 			font-family: $pt_sans;
 			font-size: 15px;
-			margin-left: 815px;
-			margin-top: -25px;
+			margin-left: 821px;
+			margin-top: -19px;
 			a {
 				text-decoration: none;
 				color: black;
 				margin-right: 10px;
+				span::before{
+					content: "&";
+				}
 			}
 		}
 		p {
 			font-family: $pt_sans;
 			font-size: 15px;
-			margin-left: 120px;
-			padding-top: 40px;
+			margin-left: 112px;
+			padding-top: 33px;
 			margin-bottom: 0px;
 			margin-top: 0px;
 		}

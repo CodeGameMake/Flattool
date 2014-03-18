@@ -10,32 +10,32 @@
 header {
 	@include size($page_width 106px);
 }
-header{
-	div{
+header {
+	div {
 		@include size(50px 50px);
 	}
 }
-.superb{
+.superb {
 	@include size($page_width 410px);
 }
-.buy{
+.buy {
 	@include size($page_width 110px);
 }
-.check{
+.check {
 	@include size($page_width 330px);
 }
-.look{
+.look {
 	@include size($page_width 260px);
 }
-.premium{
-	@include size($page_width 540px);
+.premium {
+	@include size($page_width 512px);
 }
-.learn{
-	@include size($page_width 380px);
+.learn {
+	@include size($page_width 405px);
 }
-.subscribe{
+.subscribe {
 	@include size($page_width 120px);
 }
-footer{
+footer {
 	@include size($page_width 90px);
 }
