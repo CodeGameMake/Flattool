@@ -57,7 +57,7 @@ header div {
 
 .look {
   width: 100%;
-  height: 300px; }
+  height: 260px; }
 
 .premium {
   width: 100%;
@@ -261,10 +261,19 @@ header {
 
 .premium {
   position: relative; }
+  .premium h3 {
+    margin-top: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    margin-left: -173px;
+    text-align: center;
+    margin-bottom: 29px; }
   .premium .content {
     width: 960px;
     height: 390px;
-    margin: 0 auto; }
+    margin-left: 114px; }
     .premium .content .button {
       width: 135px;
       height: 35px;
@@ -274,7 +283,6 @@ header {
         text-decoration: none; }
         .premium .content .button a p {
           font-family: PT Sans;
-          text-transform: uppercase;
           color: #fff;
           font-size: 15px;
           text-align: center;
@@ -297,14 +305,20 @@ header {
       height: 45px;
       margin: 0 auto; }
       .premium .content div .top_message p {
-        text-align: center;
+        margin-left: 28px;
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: PT Sans;
         text-transform: uppercase;
         color: #fff;
         font-size: 18px;
-        padding-top: 10px; }
+        padding-top: 3px; }
+        .premium .content div .top_message p span {
+          font-size: 27px; }
+    .premium .content div .top_message2 p {
+      margin-left: 33px; }
+    .premium .content div .top_message3 p {
+      margin-left: 18px; }
     .premium .content .regular {
       float: left;
       width: 300px;
@@ -333,12 +347,6 @@ header {
         background-color: #d34272; }
       .premium .content .pro .button {
         background-color: #d34272; }
-  .premium h3 {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 45px; }
 
 .learn {
   position: relative; }
