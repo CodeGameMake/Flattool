@@ -5,4 +5,9 @@
 *
 *
 */
-//#TODO Need using @mixin for styling
+@mixin Raleway_title{
+	font-weight: $raleway_title_font_weight;
+	font-size: $raleway_title_font_size;
+	font-family: $raleway_fonts;
+	text-transform: $raleway_title_char;
+}

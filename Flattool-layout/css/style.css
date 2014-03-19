@@ -43,7 +43,7 @@ header div {
   width: 50px;
   height: 50px; }
 
-.superb {
+.tool {
   width: 100%;
   height: 410px; }
 
@@ -90,6 +90,11 @@ header {
     position: absolute;
     left: 115px;
     top: 40px; }
+  header .social {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 36px; }
   header .flickr {
     left: 623px;
     background-color: #d34272; }
@@ -125,7 +130,7 @@ header {
     position: absolute;
     left: 870px;
     top: 35px; }
-  header .p_number {
+  header .phone_number {
     position: absolute;
     top: 37px;
     left: 907px;
@@ -133,31 +138,25 @@ header {
     font-size: 23px;
     font-family: PT Sans;
     color: #d34272; }
-  header div {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: #1dbb90;
-    top: 36px; }
 
-.superb {
+.tool {
   position: relative;
   background-color: #1dbb90; }
-  .superb .content {
+  .tool .content {
     position: absolute;
     left: 675px;
     top: 78px;
     width: 390px;
     height: 280px; }
-    .superb .content p {
+    .tool .content p {
       font-family: PT Sans;
       font-size: 15px;
       color: #474747;
       line-height: 1.75; }
-    .superb .content h3 {
+    .tool .content h3 {
       margin-top: 0px;
       font-size: 43px;
-      font-family: 'Raleway', sans-serif;
+      font-family: "Raleway", sans-serif;
       color: #fff;
       font-weight: 300;
       margin-bottom: 23px; }
@@ -166,49 +165,54 @@ header {
   position: relative;
   background-color: #d34272; }
   .buy img {
-    margin-top: -350px;
-    margin-left: 115px; }
-  .buy .button_buy {
+    position: absolute;
+    left: 115px;
+    top: -350px; }
+  .buy .button {
+    position: relative; }
+    .buy .button span {
+      font-family: PT Sans;
+      font-size: 18px;
+      position: absolute;
+      top: 8px;
+      color: #fff; }
+  .buy .button-buy {
     position: absolute;
     top: 35px;
     left: 675px;
     width: 220px;
     height: 40px;
     background-color: #1dbb90; }
-    .buy .button_buy span {
+    .buy .button-buy span {
       left: 43px; }
-  .buy div {
-    position: relative; }
-    .buy div span {
-      font-family: PT Sans;
-      font-size: 18px;
-      position: absolute;
-      top: 8px;
-      color: #fff; }
-  .buy .demo {
+  .buy .button-demo {
     position: absolute;
     width: 140px;
     height: 40px;
     left: 915px;
     top: 35px;
     background-color: #474747; }
-    .buy .demo span {
+    .buy .button-demo span {
       left: 35px; }
 
 .check {
   position: relative; }
   .check .features {
     margin-top: 40px;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     margin-left: 409px;
-    font-family: 'Raleway', sans-serif;
     font-size: 32px;
     margin-bottom: 44px;
-    font-weight: 300; }
+    color: #1dbb90; }
+    .check .features span {
+      color: #d34272; }
   .check .content {
     width: 952px;
     height: 250px;
-    margin-left: 126px; }
+    margin: 0 auto; }
     .check .content div {
       float: left;
       width: 265px;
@@ -216,14 +220,18 @@ header {
       margin-right: 52px; }
       .check .content div h3 {
         font-weight: 300;
+        font-size: 32px;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
         margin-left: 0px;
         margin-top: 8px;
         margin-bottom: 0px;
         float: right;
-        text-transform: uppercase;
-        font-family: 'Raleway', sans-serif;
         font-size: 25px;
-        line-height: 1.1; }
+        line-height: 1.1;
+        color: #d34272; }
+        .check .content div h3 span {
+          color: #1dbb90; }
       .check .content div p {
         margin-top: 21px;
         font-family: PT Sans;
@@ -244,17 +252,20 @@ header {
 
 .look h3 {
   letter-spacing: 0px;
-  text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
-  font-size: 32px;
   margin-top: 0px;
   margin-bottom: 42px;
   margin-left: 377px;
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #1dbb90; }
+  .look h3 span {
+    color: #d34272; }
 .look .content {
   width: 1000px;
   height: 200px;
-  margin-left: 115px; }
+  margin: 0 auto; }
   .look .content img {
     float: left;
     margin-right: 20px; }
@@ -264,16 +275,19 @@ header {
   .premium h3 {
     margin-top: 28px;
     font-weight: 300;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     margin-left: -173px;
     text-align: center;
-    margin-bottom: 29px; }
+    margin-bottom: 29px;
+    color: #1dbb90; }
+    .premium h3 span {
+      color: #d34272; }
   .premium .content {
     width: 960px;
     height: 390px;
-    margin-left: 114px; }
+    margin: 0 auto; }
     .premium .content .button {
       width: 135px;
       height: 35px;
@@ -353,12 +367,16 @@ header {
   .learn .content {
     width: 960px;
     height: 380px;
-    margin-left: 115px; }
+    margin: 0 auto; }
     .learn .content .customers {
       width: 410px;
       height: 285px;
       margin-right: 60px;
       float: left; }
+      .learn .content .customers h3 {
+        color: #1dbb90; }
+        .learn .content .customers h3 span {
+          color: #d34272; }
       .learn .content .customers .comment {
         width: 400px;
         height: 70px;
@@ -379,15 +397,18 @@ header {
       float: right; }
       .learn .content .youtube h3 {
         margin-left: 5px;
-        margin-bottom: 26px; }
+        margin-bottom: 26px;
+        color: #1dbb90; }
+        .learn .content .youtube h3 span {
+          color: #d34272; }
       .learn .content .youtube embed {
         margin-left: 10px; }
     .learn .content h3 {
       margin-top: 30px;
       font-weight: 300;
-      text-transform: uppercase;
-      font-family: 'Raleway', sans-serif;
       font-size: 32px;
+      font-family: "Raleway", sans-serif;
+      text-transform: uppercase;
       margin-bottom: 21px; }
 
 .subscribe {
@@ -403,11 +424,11 @@ header {
       text-transform: uppercase;
       line-height: 1;
       color: #fff;
-      font-family: 'Raleway', sans-serif;
+      font-family: "Raleway", sans-serif;
       font-size: 21px;
       margin-bottom: 0px;
       margin-top: 0px; }
-      .subscribe .content p font {
+      .subscribe .content p span {
         font-size: 32px;
         font-weight: bold; }
   .subscribe form {
@@ -440,8 +461,6 @@ footer {
       text-decoration: none;
       color: black;
       margin-right: 10px; }
-      footer .content .privacy a span::before {
-        content: "&"; }
   footer .content p {
     font-family: PT Sans;
     font-size: 15px;

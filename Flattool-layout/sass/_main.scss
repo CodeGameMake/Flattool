@@ -15,6 +15,11 @@ header {
 		left: 115px;
 		top: 40px;
 	}
+	.social {
+		position: absolute;
+		@include size(30px 30px);
+		top: 36px;
+	}
 	.flickr {
 		left: 623px;
 		background-color: $color_site_pink;
@@ -60,7 +65,7 @@ header {
 		left: 870px;
 		top: 35px;
 	}
-	.p_number {
+	.phone_number {
 		position: absolute;
 		top: 37px;
 		left: 907px;
@@ -69,16 +74,9 @@ header {
 		font-family: $pt_sans;
 		color: $color_site_pink;
 	}
-//#CHANGES styling all <div> header block is not true	
-	div {
-		position: absolute;
-		@include size(30px 30px);
-		background-color: $color_site_green;
-		top: 36px;
-	}
 }
-//superb
-.superb {
+//tool
+.tool {
 	position: relative;
 	background-color: $color_site_green;
 	.content {
@@ -95,9 +93,9 @@ header {
 		h3 {
 			margin-top: 0px;
 			font-size: 43px;
-			font-family: 'Raleway', sans-serif;
+			font-family: $raleway_fonts;
 			color: #fff;
-			font-weight: $raleway_font_weight;
+			font-weight: $raleway_title_font_weight;
 			margin-bottom: 23px;
 		}
 	}
@@ -107,22 +105,11 @@ header {
 	position: relative;
 	background-color: $color_site_pink;
 	img {
-		margin-top: -350px;// #FIXME margin-top negative in not true
-		margin-left: 115px;
-	}
-//#FIXME Create Class and Make child for Him
-	.button_buy {
 		position: absolute;
-		top: 35px;
-		left: 675px;
-		@include size(220px 40px);
-		background-color: $color_site_green;
-		span {
-			left: 43px;
-		}
+		left: 115px;
+		top: -350px;
 	}
-//#CHANGES styling all <div> header block is not true	
-	div {
+	.button {
 		position: relative;
 		span {
 			font-family: $pt_sans;
@@ -132,7 +119,17 @@ header {
 			color: #fff;
 		}
 	}
-	.demo {
+	.button-buy {
+		position: absolute;
+		top: 35px;
+		left: 675px;
+		@include size(220px 40px);
+		background-color: $color_site_green;
+		span {
+			left: 43px;
+		}
+	}
+	.button-demo {
 		position: absolute;
 		@include size(140px 40px);
 		left: 915px;
@@ -144,34 +141,38 @@ header {
 	}
 }
 //check
-.check {
+ .check {
 	position: relative;
 	.features {
 		margin-top: 40px;
-		text-transform: uppercase;
+		@include Raleway_title;
 		margin-left: 409px;
-		font-family: 'Raleway', sans-serif;
 		font-size: 32px;
 		margin-bottom: 44px;
-		font-weight: $raleway_font_weight;
+		color: $color_site_green;
+		span {
+			color: $color_site_pink;
+		}
 	}
 	.content {
 		@include size(952px 250px);
-		margin-left: 126px;
+		margin: 0 auto;
 		div {
 			float: left;
 			@include size(265px 205px);
 			margin-right: 52px;
 			h3 {
-				font-weight: $raleway_font_weight;
+				@include Raleway_title;
 				margin-left: 0px;
 				margin-top: 8px;
 				margin-bottom: 0px;
 				float: right;
-				text-transform: uppercase;
-				font-family: 'Raleway', sans-serif;
 				font-size: 25px;
 				line-height: 1.1;
+				color: $color_site_pink;
+				span {
+					color: $color_site_green;
+				}
 			}
 			p {
 				margin-top: 21px;
@@ -202,20 +203,21 @@ header {
 	}
 }
 //look
-.look {
+ .look {
 	h3 {
 		letter-spacing: 0px;
-		text-transform: uppercase;
-		font-family: 'Raleway', sans-serif; // #FIXME properties need transfer to _setting.scss
-		font-size: 32px;// #FIXME properties need transfer to _setting.scss
 		margin-top: 0px;
 		margin-bottom: 42px;
 		margin-left: 377px;
-		font-weight: $raleway_font_weight;
+		@include Raleway_title;
+		color: $color_site_green;
+				span {
+					color: $color_site_pink;
+				}
 	}
 	.content {
 		@include size(1000px 200px);
-		margin-left: 115px;
+		margin: 0 auto;
 		img {
 			float: left;
 			margin-right: 20px;
@@ -223,21 +225,22 @@ header {
 	}
 }
 //premium
-.premium {
+ .premium {
 	position: relative;
 	h3 {
 		margin-top: 28px;
-		font-weight: $raleway_font_weight;
-		text-transform: uppercase;
-		font-family: 'Raleway', sans-serif;// #FIXME properties need transfer to _setting.scss
-		font-size: 32px;
+		@include Raleway_title;
 		margin-left: -173px;
 		text-align: center;
 		margin-bottom: 29px;
+		color: $color_site_green;
+		span {
+			color: $color_site_pink;
+		}
 	}
 	.content {
 		@include size(960px 390px);
-		margin-left: 114px;
+		margin: 0 auto;
 		.button {
 			@include size(135px 35px);
 			background-color: $color_site_green;
@@ -276,7 +279,7 @@ header {
 			.top_message {
 				@include size(205px 45px);
 				margin: 0 auto;
-				p { 
+				p {
 					margin-left: 28px;
 					margin-top: 0px;
 					margin-bottom: 0px;
@@ -337,15 +340,21 @@ header {
 	}
 }
 //learn
-.learn {
+ .learn {
 	position: relative;
 	.content {
 		@include size(960px 380px);
-		margin-left: 115px;
+		margin: 0 auto;
 		.customers {
 			@include size(410px 285px);
 			margin-right: 60px;
 			float: left;
+			h3 {
+				color: $color_site_green;
+				span {
+					color: $color_site_pink;
+				}
+			}
 			.comment {
 				@include size(400px 70px);
 				margin-bottom: 10px;
@@ -369,6 +378,10 @@ header {
 			h3 {
 				margin-left: 5px;
 				margin-bottom: 26px;
+				color: $color_site_green;
+				span {
+					color: $color_site_pink;
+				}
 			}
 			embed {
 				margin-left: 10px;
@@ -376,16 +389,13 @@ header {
 		}
 		h3 {
 			margin-top: 30px;
-			font-weight: $raleway_font_weight;
-			text-transform: uppercase;
-			font-family: 'Raleway', sans-serif;// #FIXME properties need transfer to _setting.scss
-			font-size: 32px;// #FIXME properties need transfer to _setting.scss
+			@include Raleway_title;
 			margin-bottom: 21px;
 		}
 	}
 }
 //subscribe
-.subscribe {
+ .subscribe {
 	position: relative;
 	background-color: $color_site_pink;
 	.content {
@@ -394,15 +404,15 @@ header {
 		left: 115px;
 		top: 32px;
 		p {
-			text-transform: uppercase;
+			text-transform: $raleway_title_char;
 			line-height: 1;
 			color: #fff;
-			font-family: 'Raleway', sans-serif;
+			font-family: $raleway_fonts;
 			font-size: 21px;
 			margin-bottom: 0px;
 			margin-top: 0px;
-			font {
-				font-size: 32px;
+			span {
+				font-size: $raleway_title_font_size;
 				font-weight: bold;
 			}
 		}
@@ -426,7 +436,7 @@ header {
 	}
 }
 //footer
-footer {
+ footer {
 	position: relative;
 	.content {
 		.privacy {
@@ -439,9 +449,6 @@ footer {
 				text-decoration: none;
 				color: black;
 				margin-right: 10px;
-				span::before{
-					content: "&";
-				}
 			}
 		}
 		p {
