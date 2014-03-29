@@ -1,0 +1,142 @@
+/*
+*
+* --- file _responsive.scss
+*   responsive desing
+*
+*
+*/
+
+@media screen and (max-width: 640px) {
+	header {
+		#logo {
+			left: 15px;
+			top: 35px;
+		}
+		.flickr {
+			left: 220px;
+		}
+		.stumble {
+			left: 255px;
+		}
+		.facebook {
+			left: 290px;
+		}
+		.twitter {
+			left: 325px;
+		}
+		.call {
+			left: 365px;
+			font-size: 16px;
+		}
+		#phone {
+			left: 435px;
+		}
+		.phone_number {
+			left: 470px;
+			font-size: 20px;
+		}
+	}
+	.tool {
+		.content {
+			position: static;
+			margin: 0 auto;
+			padding-top: 78px;
+		}
+	}
+	.buy {
+		img {
+			display: none;
+		}
+		.button-buy {
+			left: 108px;
+		}
+		.button-demo {
+			left: 345px;
+		}
+	}
+	.check {
+		height: 800px;
+		.features {
+			margin-left: 127px;
+			font-size: 30px;
+		}
+		.content {
+			div, .calendar {
+				margin-left: 190px;
+				margin-right: 0px;
+				margin-top: 35px;
+				float: none;
+			}
+		}
+	}
+	.look {
+		height: 845px;
+		h3 {
+			font-size: 30px;
+			margin-left: 130px;
+			margin-bottom: 7px;
+		}
+		.content {
+			img {
+				float: none;
+				margin-right: 0px;
+				margin-top: 35px;
+				margin-left: 205px;
+			}
+		}
+	}
+	.premium {
+		height: 1350px;
+		h3 {
+			margin-left: 0px;
+			font-size: 30px;
+		}
+		.content {
+			.elite, .regular, .pro {
+				float: none;
+				margin-top: 35px;
+				margin-left: 150px;
+			}
+		}
+	}
+	.learn {
+		height: 670px;
+		.content {
+			.youtube, .customers {
+				float: none;
+				margin-top: 35px;
+				margin-left: 110px;
+			}
+		}
+	}
+	.subscribe {
+		.content {
+			top: 35px;
+			left: 45px;
+			p {
+				font-size: 18px;
+				span {
+					font-size: 28px;
+				}
+			}
+		}
+		form {
+			left: 285px;
+			input[type='email'] {
+				width: 260px;
+			}
+		}
+	}
+	footer {
+		.content {
+			p {
+				font-size: 13px;
+				margin-left: 20px;
+			}
+			.privacy{
+				font-size: 13px;
+				margin-left: 405px;
+			}
+		}
+	}
+}

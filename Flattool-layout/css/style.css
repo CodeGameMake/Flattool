@@ -204,7 +204,6 @@ header {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     margin-left: 409px;
-    font-size: 32px;
     margin-bottom: 44px;
     color: #1dbb90; }
     .check .features span {
@@ -468,3 +467,104 @@ footer {
     padding-top: 33px;
     margin-bottom: 0px;
     margin-top: 0px; }
+
+/* responsive desing
+-----------------------------------------------------*/
+/*
+*
+* --- file _responsive.scss
+*   responsive desing
+*
+*
+*/
+@media screen and (max-width: 640px) {
+  header #logo {
+    left: 15px;
+    top: 35px; }
+  header .flickr {
+    left: 220px; }
+  header .stumble {
+    left: 255px; }
+  header .facebook {
+    left: 290px; }
+  header .twitter {
+    left: 325px; }
+  header .call {
+    left: 365px;
+    font-size: 16px; }
+  header #phone {
+    left: 435px; }
+  header .phone_number {
+    left: 470px;
+    font-size: 20px; }
+
+  .tool .content {
+    position: static;
+    margin: 0 auto;
+    padding-top: 78px; }
+
+  .buy img {
+    display: none; }
+  .buy .button-buy {
+    left: 108px; }
+  .buy .button-demo {
+    left: 345px; }
+
+  .check {
+    height: 800px; }
+    .check .features {
+      margin-left: 127px;
+      font-size: 30px; }
+    .check .content div, .check .content .calendar {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+
+  .look {
+    height: 845px; }
+    .look h3 {
+      font-size: 30px;
+      margin-left: 130px;
+      margin-bottom: 7px; }
+    .look .content img {
+      float: none;
+      margin-right: 0px;
+      margin-top: 35px;
+      margin-left: 205px; }
+
+  .premium {
+    height: 1350px; }
+    .premium h3 {
+      margin-left: 0px;
+      font-size: 30px; }
+    .premium .content .elite, .premium .content .regular, .premium .content .pro {
+      float: none;
+      margin-top: 35px;
+      margin-left: 150px; }
+
+  .learn {
+    height: 670px; }
+    .learn .content .youtube, .learn .content .customers {
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+
+  .subscribe .content {
+    top: 35px;
+    left: 45px; }
+    .subscribe .content p {
+      font-size: 18px; }
+      .subscribe .content p span {
+        font-size: 28px; }
+  .subscribe form {
+    left: 285px; }
+    .subscribe form input[type='email'] {
+      width: 260px; }
+
+  footer .content p {
+    font-size: 13px;
+    margin-left: 20px; }
+  footer .content .privacy {
+    font-size: 13px;
+    margin-left: 405px; } }
