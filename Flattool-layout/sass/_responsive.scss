@@ -251,7 +251,7 @@
 	.learn {
 		height: 670px;
 		.content {
-			h3{
+			h3 {
 				font-size: 30px;
 				text-align: center;
 			}
@@ -260,24 +260,24 @@
 				float: none;
 				margin-top: 35px;
 				margin-left: 5px;
-				.comment{
+				.comment {
 					margin-bottom: 28px;
-					p{
+					p {
 						width: 260px;
 					}
 				}
 			}
 			.youtube {
-				h3{
+				h3 {
 					text-align: justify;
 					margin-left: 70px;
 				}
-				embed{
+				embed {
 					width: 310px;
 				}
-				float: none;
-				margin-top: 35px;
-				margin-left: 5px;
+				float:none;
+				margin-top:35px;
+				margin-left:5px;
 			}
 		}
 	}
@@ -316,3 +316,40 @@
 		}
 	}
 }
+//@media screen and (max-width: 960px) {
+//	header {
+//		.flickr {
+//			left: 550px;
+//		}
+//		.stumble {
+//			left: 585px;
+//		}
+//		.facebook {
+//			left: 620px;
+//		}
+//		.twitter {
+//			left: 655px;
+//		}
+//		.call {
+//			left: 365px;
+//			font-size: 16px;
+//		}
+//		#phone {
+//			left: 435px;
+//		}
+//		.phone_number {
+//			left: 470px;
+//			font-size: 20px;
+//		}
+//	}
+//	.tool {
+//		.content {
+//			left: 555px;
+//		}
+//	}
+//	.buy {
+//		img {
+//			left: 20px;
+//		}
+//	}
+//}
