@@ -6,6 +6,143 @@
 *
 */
 
+@media screen and (max-width: 960px) {
+	@include wide_screen;
+	header {
+		#logo {
+			left: 110px;
+		}
+		.flickr {
+			left: 410px;
+		}
+		.stumble {
+			left: 445px;
+		}
+		.facebook {
+			left: 480px;
+		}
+		.twitter {
+			left: 515px;
+		}
+		.call {
+			left: 565px;
+		}
+		#phone {
+			left: 645px;
+		}
+		.phone_number {
+			left: 685px;
+		}
+	}
+	.tool {
+		.content {
+			position: absolute;
+			padding-top: 0px;
+			top: 65px;
+			left: 540px;
+		}
+	}
+	.buy {
+		img {
+			display: block;
+			left: 5px;
+			top: -345px;
+		}
+		.button-buy {
+			left: 525px;
+		}
+		.button-demo {
+			left: 765px;
+		}
+	}
+	.check {
+		height: 350px;
+		.features {
+			text-align: center;
+			margin-left: 0px;
+			margin-bottom: 40px;
+		}
+		.content {
+			.div, .search, .calendar {
+				margin-left: 40px;
+				margin-right: 0px;
+				margin-top: 0px;
+				float: left;
+			}
+			.settings {
+				margin-top: 0px;
+				float: right;
+				margin-right: 37px;
+				margin-left: 0px;
+			}
+		}
+	}
+	.look {
+		height: 290px;
+		h3 {
+			text-align: center;
+			margin-bottom: 7px;
+			margin-left: 0px;
+		}
+		.content {
+			img {
+				float: left;
+				margin-left: 15px;
+			}
+		}
+	}
+	.premium {
+		height: 520px;
+		.content {
+			.elite, .regular, .pro {
+				float: left;
+				margin-top: 0px;
+				margin-left: 10px;
+				margin-right: 0px;
+			}
+		}
+	}
+	.learn {
+		height: 410px;
+		.content {
+			.youtube, .customers {
+				float: left;
+				margin-top: 0px;
+				margin-left: 15px;
+			}
+			.youtube{
+				@include size(435px 360px);
+			}
+			.customers{
+				@include size(410px 360px);
+			}
+		}
+	}
+	.subscribe {
+		.content {
+			top: 35px;
+			left: 90px;
+		}
+		form {
+			left: 520px;
+			input[type='email'] {
+				width: 300px;
+			}
+		}
+	}
+	footer {
+		.content {
+			p {
+				margin-left: 95px;
+				padding-top: 40px;
+			}
+			.privacy {
+				margin-left: 615px;
+				margin-top: -20px;
+			}
+		}
+	}
+}
 @media screen and (max-width: 640px) {
 	header {
 		#logo {
@@ -316,40 +453,3 @@
 		}
 	}
 }
-//@media screen and (max-width: 960px) {
-//	header {
-//		.flickr {
-//			left: 550px;
-//		}
-//		.stumble {
-//			left: 585px;
-//		}
-//		.facebook {
-//			left: 620px;
-//		}
-//		.twitter {
-//			left: 655px;
-//		}
-//		.call {
-//			left: 365px;
-//			font-size: 16px;
-//		}
-//		#phone {
-//			left: 435px;
-//		}
-//		.phone_number {
-//			left: 470px;
-//			font-size: 20px;
-//		}
-//	}
-//	.tool {
-//		.content {
-//			left: 555px;
-//		}
-//	}
-//	.buy {
-//		img {
-//			left: 20px;
-//		}
-//	}
-//}

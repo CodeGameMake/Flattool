@@ -477,6 +477,192 @@ footer {
 *
 *
 */
+@media screen and (max-width: 960px) {
+  header #logo {
+    left: 15px;
+    top: 35px; }
+  header .flickr {
+    left: 220px; }
+  header .stumble {
+    left: 255px; }
+  header .facebook {
+    left: 290px; }
+  header .twitter {
+    left: 325px; }
+  header .call {
+    left: 365px;
+    font-size: 16px; }
+  header #phone {
+    left: 435px; }
+  header .phone_number {
+    left: 470px;
+    font-size: 20px; }
+
+  .tool .content {
+    position: static;
+    margin: 0 auto;
+    padding-top: 78px; }
+
+  .buy img {
+    display: none; }
+  .buy .button-buy {
+    left: 108px; }
+  .buy .button-demo {
+    left: 345px; }
+
+  .check {
+    height: 800px; }
+    .check .features {
+      margin-left: 127px;
+      font-size: 30px; }
+    .check .content div, .check .content .calendar {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+
+  .look {
+    height: 845px; }
+    .look h3 {
+      font-size: 30px;
+      margin-left: 130px;
+      margin-bottom: 7px; }
+    .look .content img {
+      float: none;
+      margin-right: 0px;
+      margin-top: 35px;
+      margin-left: 205px; }
+
+  .premium {
+    height: 1350px; }
+    .premium h3 {
+      margin-left: 0px;
+      font-size: 30px; }
+    .premium .content .elite, .premium .content .regular, .premium .content .pro {
+      float: none;
+      margin-top: 35px;
+      margin-left: 150px; }
+
+  .learn {
+    height: 670px; }
+    .learn .content .youtube, .learn .content .customers {
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+
+  .subscribe .content {
+    top: 35px;
+    left: 45px; }
+    .subscribe .content p {
+      font-size: 18px; }
+      .subscribe .content p span {
+        font-size: 28px; }
+  .subscribe form {
+    left: 285px; }
+    .subscribe form input[type='email'] {
+      width: 260px; }
+
+  footer .content p {
+    font-size: 13px;
+    margin-left: 20px; }
+  footer .content .privacy {
+    font-size: 13px;
+    margin-left: 405px; }
+
+  header #logo {
+    left: 110px; }
+  header .flickr {
+    left: 410px; }
+  header .stumble {
+    left: 445px; }
+  header .facebook {
+    left: 480px; }
+  header .twitter {
+    left: 515px; }
+  header .call {
+    left: 565px; }
+  header #phone {
+    left: 645px; }
+  header .phone_number {
+    left: 685px; }
+
+  .tool .content {
+    position: absolute;
+    padding-top: 0px;
+    top: 65px;
+    left: 540px; }
+
+  .buy img {
+    display: block;
+    left: 5px;
+    top: -345px; }
+  .buy .button-buy {
+    left: 525px; }
+  .buy .button-demo {
+    left: 765px; }
+
+  .check {
+    height: 350px; }
+    .check .features {
+      text-align: center;
+      margin-left: 0px;
+      margin-bottom: 40px; }
+    .check .content .div, .check .content .search, .check .content .calendar {
+      margin-left: 40px;
+      margin-right: 0px;
+      margin-top: 0px;
+      float: left; }
+    .check .content .settings {
+      margin-top: 0px;
+      float: right;
+      margin-right: 37px;
+      margin-left: 0px; }
+
+  .look {
+    height: 290px; }
+    .look h3 {
+      text-align: center;
+      margin-bottom: 7px;
+      margin-left: 0px; }
+    .look .content img {
+      float: left;
+      margin-left: 15px; }
+
+  .premium {
+    height: 520px; }
+    .premium .content .elite, .premium .content .regular, .premium .content .pro {
+      float: left;
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 0px; }
+
+  .learn {
+    height: 410px; }
+    .learn .content .youtube, .learn .content .customers {
+      float: left;
+      margin-top: 0px;
+      margin-left: 15px; }
+    .learn .content .youtube {
+      width: 435px;
+      height: 360px; }
+    .learn .content .customers {
+      width: 410px;
+      height: 360px; }
+
+  .subscribe .content {
+    top: 35px;
+    left: 90px; }
+  .subscribe form {
+    left: 520px; }
+    .subscribe form input[type='email'] {
+      width: 300px; }
+
+  footer .content p {
+    margin-left: 95px;
+    padding-top: 40px; }
+  footer .content .privacy {
+    margin-left: 615px;
+    margin-top: -20px; } }
 @media screen and (max-width: 640px) {
   header #logo {
     left: 15px;
