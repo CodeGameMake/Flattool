@@ -950,6 +950,189 @@ footer {
 
   footer .content .privacy {
     margin-left: 365px; } }
+@media screen and (max-width: 480px) {
+  header {
+    height: 215px; }
+    header #logo {
+      left: 93px;
+      top: 35px; }
+    header .social {
+      top: 100px; }
+    header .flickr {
+      left: 100px; }
+    header .stumble {
+      left: 135px; }
+    header .facebook {
+      left: 170px; }
+    header .twitter {
+      left: 205px; }
+    header .call {
+      left: 50px;
+      font-size: 16px;
+      top: 156px; }
+    header #phone {
+      left: 120px;
+      top: 151px; }
+    header .phone_number {
+      left: 155px;
+      font-size: 20px;
+      top: 153px; }
+
+  .tool .content {
+    position: static;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 339px; }
+    .tool .content h3, .tool .content p {
+      text-align: center; }
+
+  .buy {
+    height: 170px; }
+    .buy img {
+      display: none; }
+    .buy .button-buy {
+      left: 65px; }
+    .buy .button-demo {
+      left: 103px;
+      top: 104px; }
+
+  .check {
+    height: 830px; }
+    .check .features {
+      font-size: 30px; }
+    .check .content div, .check .content .calendar {
+      margin-left: 50px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+
+  .look {
+    height: 885px; }
+    .look h3 {
+      font-size: 30px;
+      margin-bottom: 7px; }
+    .look .content img {
+      float: none;
+      margin-right: 0px;
+      margin-top: 35px;
+      margin-left: 68px; }
+
+  .premium {
+    height: 1390px; }
+    .premium h3 {
+      margin-left: 0px;
+      font-size: 30px; }
+    .premium .content .elite, .premium .content .regular, .premium .content .pro {
+      float: none;
+      margin-top: 35px;
+      margin-left: 22px; }
+
+  .learn {
+    height: 670px; }
+    .learn .content h3 {
+      font-size: 30px;
+      text-align: center; }
+    .learn .content .customers {
+      width: 348px;
+      height: 395px;
+      float: none;
+      margin-top: 35px;
+      margin-left: 5px; }
+      .learn .content .customers .comment {
+        margin-bottom: 28px; }
+        .learn .content .customers .comment p {
+          width: 260px; }
+    .learn .content .youtube {
+      float: none;
+      margin-top: 35px;
+      margin-left: 5px; }
+      .learn .content .youtube h3 {
+        text-align: justify;
+        margin-left: 70px; }
+      .learn .content .youtube embed {
+        width: 310px; }
+
+  .subscribe {
+    height: 170px;
+    margin-top: 110px; }
+    .subscribe .content {
+      top: 28px;
+      left: 66px; }
+      .subscribe .content p {
+        font-size: 18px; }
+        .subscribe .content p span {
+          font-size: 28px; }
+    .subscribe form {
+      left: 10px;
+      top: 100px; }
+      .subscribe form input[type='email'] {
+        width: 260px; }
+
+  footer .content p {
+    font-size: 13px;
+    margin-left: 35px; }
+  footer .content .privacy {
+    font-size: 13px;
+    margin-left: 75px;
+    margin-top: 25px; }
+
+  header #logo {
+    left: 160px;
+    top: 35px; }
+  header .social {
+    top: 100px; }
+  header .flickr {
+    left: 165px; }
+  header .stumble {
+    left: 200px; }
+  header .facebook {
+    left: 235px; }
+  header .twitter {
+    left: 270px; }
+  header .call {
+    left: 115px; }
+  header #phone {
+    left: 182px; }
+  header .phone_number {
+    left: 216px; }
+
+  .buy .button-buy {
+    left: 125px; }
+  .buy .button-demo {
+    left: 164px; }
+
+  .check .content .calendar {
+    margin-left: 108px; }
+  .check .content .search {
+    margin-left: 108px; }
+  .check .content .settings {
+    margin-left: 108px; }
+
+  .look .content img {
+    margin-left: 124px; }
+
+  .premium .content .elite, .premium .content .regular, .premium .content .pro {
+    margin-left: 84px; }
+
+  .learn .content .customers {
+    width: 349px;
+    margin-left: 64px; }
+  .learn .content .youtube {
+    margin-left: 32px; }
+    .learn .content .youtube h3 {
+      margin-left: 96px; }
+    .learn .content .youtube embed {
+      width: 380px; }
+
+  .subscribe .content {
+    left: 125px; }
+  .subscribe form {
+    left: 68px; }
+
+  footer .content p {
+    margin-left: 95px; }
+  footer .content .privacy {
+    margin-left: 125px; } }
 @media screen and (max-width: 360px) {
   header {
     height: 215px; }

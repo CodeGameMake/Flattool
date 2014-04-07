@@ -406,6 +406,109 @@
 		}
 	}
 }
+@media screen and (max-width: 480px) {
+	@include narrow_screen;
+	header {
+		#logo {
+			left: 160px;
+			top: 35px;
+		}
+		.social {
+			top: 100px;
+		}
+		.flickr {
+			left: 165px;
+		}
+		.stumble {
+			left: 200px;
+		}
+		.facebook {
+			left: 235px;
+		}
+		.twitter {
+			left: 270px;
+		}
+		.call {
+			left: 115px;
+		}
+		#phone {
+			left: 182px;
+		}
+		.phone_number {
+			left: 216px;
+		}
+	}
+	.buy {
+		.button-buy {
+			left: 125px;
+		}
+		.button-demo {
+			left: 164px;
+		}
+	}
+	.check {
+		.content {
+			.calendar {
+				margin-left: 108px;
+			}
+			.search {
+				margin-left: 108px;
+			}
+			.settings {
+				margin-left: 108px;
+			}
+		}
+	}
+	.look {
+		.content {
+			img {
+				margin-left: 124px;
+			}
+		}
+	}
+	.premium {
+		.content {
+			.elite, .regular, .pro {
+				margin-left: 84px;
+			}
+		}
+	}
+	.learn {
+		.content {
+			.customers {
+				width: 349px;
+				margin-left: 64px;
+			}
+			.youtube {
+				margin-left: 32px;
+				h3 {
+					margin-left: 96px;
+				}
+				embed {
+					width: 380px;
+				}
+			}
+		}
+	}
+	.subscribe {
+		.content {
+			left: 125px;
+		}
+		form {
+			left: 68px;
+		}
+	}
+	footer {
+		.content {
+			p {
+				margin-left: 95px;
+			}
+			.privacy {
+				margin-left: 125px;
+			}
+		}
+	}
+}
 @media screen and (max-width: 360px) {
 	header {
 		height: 215px;
