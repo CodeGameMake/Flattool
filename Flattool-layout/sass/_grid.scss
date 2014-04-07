@@ -10,11 +10,6 @@
 header {
 	@include size($page_width 106px);
 }
-header {
-	div {
-		@include size(50px 50px);
-	}
-}
 .tool {
 	@include size($page_width 410px);
 }

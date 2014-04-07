@@ -295,6 +295,117 @@
 		}
 	}
 }
+@media screen and (max-width: 600px) {
+	@include wide_screen;
+	header {
+		height: 215px;
+		#logo {
+			left: 220px;
+		}
+		.social {
+			top: 100px;
+		}
+		.flickr {
+			left: 230px;
+		}
+		.stumble {
+			left: 265px;
+		}
+		.facebook {
+			left: 300px;
+		}
+		.twitter {
+			left: 335px;
+		}
+		.call {
+			left: 173px;
+			font-size: 16px;
+			top: 156px;
+		}
+		#phone {
+			left: 244px;
+			top: 151px;
+		}
+		.phone_number {
+			left: 280px;
+			font-size: 20px;
+			top: 153px;
+		}
+	}
+	.tool {
+		.content {
+			position: static;
+			margin-left: 120px;
+			padding-top: 78px;
+		}
+	}
+	.buy {
+		img {
+			display: none;
+		}
+		.button-buy {
+			left: 110px;
+		}
+		.button-demo {
+			left: 350px;
+		}
+	}
+	.check {
+		.features {
+			font-size: 30px;
+		}
+		.content {
+			.calendar {
+				margin-left: 165px;
+			}
+			.search {
+				margin-left: 165px;
+			}
+			.settings {
+				margin-left: 165px;
+			}
+		}
+	}
+	.look {
+		.content {
+			img {
+				margin-left: 180px;
+			}
+		}
+	}
+	.premium {
+		.content {
+			.elite, .regular, .pro {
+				margin-left: 140px;
+			}
+		}
+	}
+	.learn {
+		.content {
+			.youtube {
+				margin-left: 85px;
+			}
+			.customers {
+				margin-left: 100px;
+			}
+		}
+	}
+	.subscribe {
+		.content {
+			left: 20px;
+		}
+		form {
+			left: 250px;
+		}
+	}
+	footer {
+		.content {
+			.privacy {
+				margin-left: 365px;
+			}
+		}
+	}
+}
 @media screen and (max-width: 360px) {
 	header {
 		height: 215px;
