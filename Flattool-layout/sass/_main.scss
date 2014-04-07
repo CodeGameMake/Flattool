@@ -145,8 +145,8 @@ header {
 	position: relative;
 	.features {
 		margin-top: 40px;
+		text-align: center;
 		@include Raleway_title;
-		margin-left: 409px;
 		margin-bottom: 44px;
 		color: $color_site_green;
 		span {
@@ -207,7 +207,7 @@ header {
 		letter-spacing: 0px;
 		margin-top: 0px;
 		margin-bottom: 42px;
-		margin-left: 377px;
+		text-align: center;
 		@include Raleway_title;
 		color: $color_site_green;
 				span {
@@ -425,6 +425,9 @@ header {
 			border: 0px;
 		}
 		input[type='submit'] {
+			background-image: url(../img/letter.png);
+			background-repeat: no-repeat;
+			background-position: center;
 			background-color: #fff;
 			border: 0px;
 			@include size(60px 55px);

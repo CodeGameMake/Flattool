@@ -199,11 +199,11 @@ header {
   position: relative; }
   .check .features {
     margin-top: 40px;
+    text-align: center;
     font-weight: 300;
     font-size: 32px;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    margin-left: 409px;
     margin-bottom: 44px;
     color: #1dbb90; }
     .check .features span {
@@ -253,7 +253,7 @@ header {
   letter-spacing: 0px;
   margin-top: 0px;
   margin-bottom: 42px;
-  margin-left: 377px;
+  text-align: center;
   font-weight: 300;
   font-size: 32px;
   font-family: "Raleway", sans-serif;
@@ -439,6 +439,9 @@ header {
       height: 35px;
       border: 0px; }
     .subscribe form input[type='submit'] {
+      background-image: url(../img/letter.png);
+      background-repeat: no-repeat;
+      background-position: center;
       background-color: #fff;
       border: 0px;
       width: 60px;
@@ -513,9 +516,18 @@ footer {
   .check {
     height: 800px; }
     .check .features {
-      margin-left: 127px;
       font-size: 30px; }
-    .check .content div, .check .content .calendar {
+    .check .content .calendar {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .search {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .settings {
       margin-left: 190px;
       margin-right: 0px;
       margin-top: 35px;
@@ -525,7 +537,6 @@ footer {
     height: 845px; }
     .look h3 {
       font-size: 30px;
-      margin-left: 130px;
       margin-bottom: 7px; }
     .look .content img {
       float: none;
@@ -545,7 +556,12 @@ footer {
 
   .learn {
     height: 670px; }
-    .learn .content .youtube, .learn .content .customers {
+    .learn .content .youtube {
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+    .learn .content .customers {
+      height: 285px;
       float: none;
       margin-top: 35px;
       margin-left: 110px; }
@@ -604,10 +620,13 @@ footer {
   .check {
     height: 350px; }
     .check .features {
-      text-align: center;
-      margin-left: 0px;
       margin-bottom: 40px; }
-    .check .content .div, .check .content .search, .check .content .calendar {
+    .check .content .calendar {
+      margin-left: 40px;
+      margin-right: 0px;
+      margin-top: 0px;
+      float: left; }
+    .check .content .search {
       margin-left: 40px;
       margin-right: 0px;
       margin-top: 0px;
@@ -621,9 +640,7 @@ footer {
   .look {
     height: 290px; }
     .look h3 {
-      text-align: center;
-      margin-bottom: 7px;
-      margin-left: 0px; }
+      margin-bottom: 7px; }
     .look .content img {
       float: left;
       margin-left: 15px; }
@@ -699,9 +716,18 @@ footer {
   .check {
     height: 800px; }
     .check .features {
-      margin-left: 127px;
       font-size: 30px; }
-    .check .content div, .check .content .calendar {
+    .check .content .calendar {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .search {
+      margin-left: 190px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .settings {
       margin-left: 190px;
       margin-right: 0px;
       margin-top: 35px;
@@ -711,7 +737,6 @@ footer {
     height: 845px; }
     .look h3 {
       font-size: 30px;
-      margin-left: 130px;
       margin-bottom: 7px; }
     .look .content img {
       float: none;
@@ -731,7 +756,12 @@ footer {
 
   .learn {
     height: 670px; }
-    .learn .content .youtube, .learn .content .customers {
+    .learn .content .youtube {
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+    .learn .content .customers {
+      height: 285px;
       float: none;
       margin-top: 35px;
       margin-left: 110px; }
@@ -803,10 +833,18 @@ footer {
   .check {
     height: 830px; }
     .check .features {
-      margin-left: 20px;
-      font-size: 30px;
-      text-align: center; }
-    .check .content div, .check .content .calendar {
+      font-size: 30px; }
+    .check .content .calendar {
+      margin-left: 50px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .search {
+      margin-left: 50px;
+      margin-right: 0px;
+      margin-top: 35px;
+      float: none; }
+    .check .content .settings {
       margin-left: 50px;
       margin-right: 0px;
       margin-top: 35px;
@@ -816,9 +854,7 @@ footer {
     height: 885px; }
     .look h3 {
       font-size: 30px;
-      margin-left: 10px;
-      margin-bottom: 7px;
-      text-align: center; }
+      margin-bottom: 7px; }
     .look .content img {
       float: none;
       margin-right: 0px;

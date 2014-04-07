@@ -63,11 +63,22 @@
 	.check {
 		height: 800px;
 		.features {
-			margin-left: 127px;
 			font-size: 30px;
 		}
 		.content {
-			div, .calendar {
+			.calendar {
+				margin-left: 190px;
+				margin-right: 0px;
+				margin-top: 35px;
+				float: none;
+			}
+			.search {
+				margin-left: 190px;
+				margin-right: 0px;
+				margin-top: 35px;
+				float: none;
+			}
+			.settings {
 				margin-left: 190px;
 				margin-right: 0px;
 				margin-top: 35px;
@@ -79,7 +90,6 @@
 		height: 845px;
 		h3 {
 			font-size: 30px;
-			margin-left: 130px;
 			margin-bottom: 7px;
 		}
 		.content {
@@ -108,7 +118,13 @@
 	.learn {
 		height: 670px;
 		.content {
-			.youtube, .customers {
+			.youtube {
+				float: none;
+				margin-top: 35px;
+				margin-left: 110px;
+			}
+			.customers{
+				height: 285px;
 				float: none;
 				margin-top: 35px;
 				margin-left: 110px;
@@ -210,9 +226,7 @@
 	.check {
 		height: 830px;
 		.features {
-			margin-left: 20px;
 			font-size: 30px;
-			text-align: center;
 		}
 		.content {
 			div, .calendar {
@@ -227,9 +241,7 @@
 		height: 885px;
 		h3 {
 			font-size: 30px;
-			margin-left: 10px;
 			margin-bottom: 7px;
-			text-align: center;
 		}
 		.content {
 			img {
