@@ -693,3 +693,126 @@
 		}
 	}
 }
+@media screen and (max-width: 320px) {
+	@include narrow_screen;
+	header {
+		#logo {
+			left: 84px;
+		}
+		.flickr {
+			left: 90px;
+		}
+		.stumble {
+			left: 125px;
+		}
+		.facebook {
+			left: 160px;
+		}
+		.twitter {
+			left: 195px;
+		}
+		.call {
+			left: 40px;
+		}
+		#phone {
+			left: 108px;
+		}
+		.phone_number {
+			left: 145px;
+		}
+	}
+	.tool {
+		height: 350px;
+		.content {
+			width: 290px;
+			h3 {
+				text-align: center;
+				font-size: 36px;
+			}
+			p {
+				text-align: center;
+			}
+		}
+	}
+	.buy {
+		.button-buy {
+			left: 44px;
+		}
+		.button-demo {
+			left: 86px;
+		}
+	}
+	.check {
+		.content {
+			.calendar {
+				margin-left: 25px;
+			}
+			.search {
+				margin-left: 25px;
+			}
+			.settings {
+				margin-left: 25px;
+			}
+		}
+	}
+	.look {
+		.content {
+			img {
+				margin-left: 46px;
+			}
+		}
+	}
+	.premium {
+		.content {
+			.elite, .regular, .pro {
+				margin-left: 4px;
+				width: 290px;
+			}
+		}
+	}
+	.learn {
+		height: 720px;
+		.content {
+			.customers {
+				@include size(274px 460px);
+				margin-left: 8px;
+				.comment {
+					margin-bottom: 55px;
+					p {
+						width: 231px;
+					}
+				}
+			}
+			.youtube {
+				margin-left: 0px;
+				h3 {
+					text-align: justify;
+					margin-left: 53px;
+				}
+				embed {
+					width: 280px;
+				}
+			}
+		}
+	}
+	.subscribe {
+		.content {
+			left: 54px;
+		}
+		form {
+			input[type='email'] {
+				width: 220px;
+			}
+		}
+	}
+	footer {
+		.content {
+			p {
+				margin-left: 20px;
+			}
+			.privacy {
+				margin-left: 50px;
+			}
+		}
+	}
+}
