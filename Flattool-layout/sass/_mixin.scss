@@ -71,18 +71,39 @@
 				margin-right: 0px;
 				margin-top: 35px;
 				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 3px;
+				}
+				p {
+					font-size: 15px;
+				}
 			}
 			.search {
 				margin-left: 190px;
 				margin-right: 0px;
 				margin-top: 35px;
 				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 43px;
+				}
+				p {
+					font-size: 15px;
+				}
 			}
 			.settings {
 				margin-left: 190px;
 				margin-right: 0px;
 				margin-top: 35px;
 				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 15px;
+				}
+				p {
+					font-size: 15px;
+				}
 			}
 		}
 	}
@@ -123,7 +144,7 @@
 				margin-top: 35px;
 				margin-left: 110px;
 			}
-			.customers{
+			.customers {
 				height: 285px;
 				float: none;
 				margin-top: 35px;
@@ -229,11 +250,44 @@
 			font-size: 30px;
 		}
 		.content {
-			div, .calendar {
+			.calendar {
 				margin-left: 50px;
 				margin-right: 0px;
 				margin-top: 35px;
 				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 3px;
+				}
+				p {
+					font-size: 15px;
+				}
+			}
+			.search {
+				margin-left: 50px;
+				margin-right: 0px;
+				margin-top: 35px;
+				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 43px;
+				}
+				p {
+					font-size: 15px;
+				}
+			}
+			.settings {
+				margin-left: 50px;
+				margin-right: 0px;
+				margin-top: 35px;
+				float: none;
+				h3 {
+					font-size: 32px;
+					margin-right: 15px;
+				}
+				p {
+					font-size: 15px;
+				}
 			}
 		}
 	}
