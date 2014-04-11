@@ -519,8 +519,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -529,7 +529,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -539,8 +539,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -734,8 +734,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -744,7 +744,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -754,8 +754,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -852,16 +852,25 @@ footer {
       margin-right: 0px;
       margin-top: 0px;
       float: left; }
+      .check .content .calendar h3 {
+        font-size: 30px;
+        margin-right: 10px; }
     .check .content .search {
       margin-left: 40px;
       margin-right: 0px;
       margin-top: 0px;
       float: left; }
+      .check .content .search h3 {
+        font-size: 30px;
+        margin-right: 43px; }
     .check .content .settings {
       margin-top: 0px;
       float: right;
       margin-right: 37px;
       margin-left: 0px; }
+      .check .content .settings h3 {
+        font-size: 30px;
+        margin-right: 25px; }
 
   .look {
     height: 290px; }
@@ -949,8 +958,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -959,7 +968,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -969,8 +978,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -1182,8 +1191,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -1192,7 +1201,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -1202,8 +1211,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -1418,8 +1427,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -1428,7 +1437,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -1438,8 +1447,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -1465,13 +1474,18 @@ footer {
       margin-left: 150px; }
 
   .learn {
-    height: 670px; }
+    height: 700px; }
     .learn .content .youtube {
       float: none;
       margin-top: 35px;
       margin-left: 110px; }
+      .learn .content .youtube h3 {
+        text-align: center;
+        margin-left: 0px; }
+      .learn .content .youtube embed {
+        width: 420px; }
     .learn .content .customers {
-      height: 285px;
+      height: 325px;
       float: none;
       margin-top: 35px;
       margin-left: 110px; }
@@ -1537,8 +1551,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -1547,7 +1561,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -1557,8 +1571,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -1667,10 +1681,22 @@ footer {
   .premium .content .elite, .premium .content .regular, .premium .content .pro {
     margin-left: 140px; }
 
-  .learn .content .youtube {
-    margin-left: 85px; }
-  .learn .content .customers {
-    margin-left: 100px; }
+  .learn {
+    height: 700px; }
+    .learn .content .youtube {
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+      .learn .content .youtube h3 {
+        text-align: center;
+        margin-left: 0px; }
+      .learn .content .youtube embed {
+        width: 420px; }
+    .learn .content .customers {
+      height: 325px;
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
 
   .subscribe .content {
     left: 20px; }
@@ -1679,6 +1705,30 @@ footer {
 
   footer .content .privacy {
     margin-left: 365px; } }
+@media screen and (max-width: 568px) {
+  .learn {
+    height: 700px; }
+    .learn .content .youtube {
+      float: none;
+      margin-top: 35px;
+      margin-left: 72px; }
+      .learn .content .youtube h3 {
+        text-align: center;
+        margin-left: 0px; }
+      .learn .content .youtube embed {
+        width: 420px; }
+    .learn .content .customers {
+      height: 325px;
+      float: none;
+      margin-top: 35px;
+      margin-left: 110px; }
+
+  .subscribe .content {
+    left: 20px; }
+  .subscribe form {
+    left: 250px; }
+    .subscribe form input[type='email'] {
+      width: 220px; } }
 @media screen and (max-width: 480px) {
   header {
     height: 215px; }
@@ -1735,8 +1785,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -1745,7 +1795,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -1755,8 +1805,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -1943,8 +1993,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -1953,7 +2003,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -1963,8 +2013,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
@@ -2093,8 +2143,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .calendar h3 {
-        font-size: 32px;
-        margin-right: 3px; }
+        font-size: 30px;
+        margin-right: 10px; }
       .check .content .calendar p {
         font-size: 15px; }
     .check .content .search {
@@ -2103,7 +2153,7 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .search h3 {
-        font-size: 32px;
+        font-size: 30px;
         margin-right: 43px; }
       .check .content .search p {
         font-size: 15px; }
@@ -2113,8 +2163,8 @@ footer {
       margin-top: 35px;
       float: none; }
       .check .content .settings h3 {
-        font-size: 32px;
-        margin-right: 15px; }
+        font-size: 30px;
+        margin-right: 25px; }
       .check .content .settings p {
         font-size: 15px; }
 
