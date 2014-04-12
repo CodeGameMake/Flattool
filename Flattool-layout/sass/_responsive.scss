@@ -5,6 +5,36 @@
 *
 *
 */
+
+@mixin big-PC {
+  @media screen and (max-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin middle-PC {
+  @media screen and (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin small-PC {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin iphone {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+
+
+
+
+
 //9.7'
 @media screen and (max-width: 1024px) {
 	@include wide_screen;

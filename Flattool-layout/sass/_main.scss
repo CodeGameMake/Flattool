@@ -14,6 +14,9 @@ header {
 		position: absolute;
 		left: 115px;
 		top: 40px;
+        @include big-PC {
+          left: 40px;
+        }
 	}
 	.social {
 		position: absolute;

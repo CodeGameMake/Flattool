@@ -12,6 +12,26 @@
 	font-family: $raleway_fonts;
 	text-transform: $raleway_title_char;
 }
+
+@mixin create_icon() {
+  &:before {
+    width:16px;
+    height:16px;
+    /* css3 */
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    border-radius:16px;
+  }
+  &:after {
+    left:7px;
+    border:4px solid transparent;
+    border-left-color:#fff;
+    margin-top:-4px;
+    background:transparent;
+  }
+}
+
+
 @mixin wide_screen {
 	header {
 		#logo {
