@@ -232,7 +232,6 @@ header {
 	h3 {
 		margin-top: 28px;
 		@include Raleway_title;
-		margin-left: -173px;
 		text-align: center;
 		margin-bottom: 29px;
 		color: $color_site_green;
@@ -424,8 +423,10 @@ header {
 		left: 705px;
 		top: 32px;
 		input[type='email'] {
-			@include size(365px 35px);
-			border: 0px;
+          float: left;
+          margin-top: 10px;
+		  @include size(365px 35px);
+		  border: 0px;
 		}
 		input[type='submit'] {
 			background-image: url(../img/letter.png);
